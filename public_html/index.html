@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bell's Photography</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    </head>
+    <body>
+       
+        <div id="container">
+            <header>
+        <h1>Bell's Photography</h1>
+            </header>
+            
+            <nav id="horizontal">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="albums.html">Albums</a>
+                        <ul>
+                            <li><a href="#2017.html">2017</a></li>
+                            <li><a href="#2016.html">2016</a></li>
+                            <li><a href="#2015.html">2015</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contactinfo.html">Contact Information</a></li>
+                </ul>   
+            </nav>
+
+            <main>
+                        
+            <audio id="myAudio" controls autoplay>
+            <source src="music/Olive-Musique-changetheworld.ogg" type="audio/ogg">
+            <source src="music/Olive-Musique-changetheworld.mp3" type="audio/mpeg">
+            </audio>
+                <p>Click the buttons to get or set the volume of the audio player.</p>
+                
+<!-- https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_volume    ASSISTANCE FROM HERE IN ORDER FOR THE MUSIC -->
+<button onclick="setPartialVolume()" type="button">Set volume to 20%</button>
+<button onclick="setFullVolume()" type="button">Set volume to 100%</button>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function setPartialVolume() { 
+    x.volume = 0.2;
+}
+   
+function setFullVolume() { 
+    x.volume = 1.0;
+} 
+</script> 
+                
+        <h2>Introduction</h2>
+
+        It all began back in 2015 when I decided to explore what could be accomplished with a bridge camera. In my case, I chose the <em>Nikon P510</em> as from what I had seen online, it had a brilliant reputation, cracking reviews and the price couldn't have been better! I got mine in a sale for &#163;200 from Amazon UK! The only thing I don't do is shoot in RAW format due to the fact I don't find my self having to touch up images in Photoshop. And also, RAW takes up a whole lot of space when that space could be used for more images!
+        <p>The cameras specifications can be found in the "Equipment" page <a href="equipment.html">here</a>.</p>
+        
+        <br>
+        
+        <img src="images/nikon-p510-red.png" alt="NikonFront" width="400" height="300"/>  <img src="images/nikon-p510-red2.png" alt="NikonBack" width="400" height="300"/>
+        
+        <h2>My go-to destinations - In order of preference of course!</h2>
+        
+        <ol>
+            <li class="Spain"><a href="#Spain">Spain</a></li>
+            <li class="Germany"><a href="#Germany">Germany</a></li>
+            <li class="Ireland"><a href="#Ireland">Ireland</a></li>
+        </ol>
+        
+        <a name="Spain"></a>
+        <h3 class="introduction"> #1 Spain </h3>
+        <img src="images/spain-flag.jpg" alt="FlagOfSpain" hspace="20" width="300" height="200" style="float:left"/>
+        Located <a href="https://www.google.ie/maps/place/Spain/@40.121682,-8.2033603,6z/data=!3m1!4b1!4m5!3m4!1s0xc42e3783261bc8b:0xa6ec2c940768a3ec!8m2!3d40.463667!4d-3.74922" target="_blank">here</a> <strong>The Kingdom of Spain, as it’s officially known, is the second largest country in the EU</strong> – with an area of 505,955 square kilometres, Spain covers about 85 percent of the Iberian Peninsula, which it shares with Portugal.
+        <p>Spain is my top destination to go to, especially in the summer! I find that Spain has so much to offer. Things such as its street art, statues, tourist attractions and even its fauna. There is something that is bound to make you just say "wow, this is so beautiful. An area which I have been to over 3 or 4 times is Cambrils in Costa Dorada. The weather is perfect from May until the end of August to be able to travel around the area freely and snap some beautiful images. Also, if you wish to take a break from shooting, there is plenty of activites to particapte in. Biking, going on a bus tour, going out to sea on a catamaran or else heading to a restaurant for a few cold ones - you are bound to have a smile on your face while you're there.</p>
+
+
+        <a name="Germany"></a>
+        <h3 class="introduction"> #2 Germany </h3>
+        <img src="images/germany-flag.jpg" alt="FlagOfGermany" hspace="20" width="300" height="200" style="float:left"/>
+        Located <a href="https://www.google.ie/maps/place/Germany/@51.0899098,5.9680098,6z/data=!3m1!4b1!4m5!3m4!1s0x479a721ec2b1be6b:0x75e85d6b8e91e55b!8m2!3d51.165691!4d10.451526" target="_blank">here</a> <strong>Germany was the first country in the world to adopt Daylight saving time </strong> – DST, also known as summer time. This occured in 1916 in the midst of WWI and was put in place to conserve energy. 
+        <p>Germany is my 2<sup>nd</sup> favorite destination due to its sparse culture. It is home to some of the most beautiful vehicles in the world. With its specialized knowledge in the production of BMW's, Audi's Ford's, Mercedes-Benz and so many others - there will more than likely be a few motors that catch your eye when you are here. I had found myself in Berlin twice and the amount of expensive looking cars made me lose track on counting them. At times I only had seconds to snap an image of the car before it would speed off like a bullet! German art on the <em>Wall of Berlin</em> is just spectacular. As is any of the festivals which occur in Germany. Oktoberfest is an event which can't be missed - there does be such visually appealing food on every street you turn into (this means have your camera at the ready for any meal you come across, them Instagram followers need to see the brilliance). While on the other hand, if you would rather try something a little more common, their is typically a <em>Dunkin' Donuts</em> and <em>Starbucks</em> on every block you go around - which both contain super tasty items. Just be aware that you may become addicted to donuts over a short period of time so go easy on them!</p>
+        
+        <a name="Ireland"></a>
+        <h3 class="introduction"> #3 Ireland </h3>
+        <img src="images/ireland-flag.jpg" alt="FlagOfIreland" hspace="20" width="300" height="200" style="float:left"/>
+        Located <a href="https://www.google.ie/maps/place/Ireland/@53.3942341,-10.1984094,7z/data=!3m1!4b1!4m5!3m4!1s0x485e619e5d73698f:0xca9b39444d6ac68d!8m2!3d53.1423672!4d-7.6920536" target="_blank">here</a> <strong>The Magic roads in Ireland</strong> - Roll up, roll up! Ireland has back-roads and then it has roll-up-backwards-roads. This bizarre phenomenon sees vehicles moving themselves uphill backwards. The Comeragh Mountains in County Waterford and the Cooley Peninsula in County Louth host two of the enchanted spots.
+
+            </main>
+            <footer>
+                <p><span class="red">&COPY; Copyright 2017 Anthony Bell - To use any images shown, please contact me at anthony.bell.irl@gmail.com</span>
+            </footer>
+        </div>
+    </body>
+</html>

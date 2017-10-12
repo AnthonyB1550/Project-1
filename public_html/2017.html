@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bell's Photography</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    </head>
+    <body>
+       
+        <div id="container">
+            <header>
+        <h1>Bell's Photography</h1>
+            </header>
+            
+            <nav id="horizontal">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="albums.html">Albums</a>
+                        <ul>
+                            <li><a href="#2017.html">2017</a></li>
+                            <li><a href="#2016.html">2016</a></li>
+                            <li><a href="#2015.html">2015</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contactinfo.html">Contact Information</a></li>
+                </ul>   
+            </nav>
+
+            <main>
+                                        
+            <audio id="myAudio" controls autoplay>
+            <source src="music/Olive-Musique-changetheworld.ogg" type="audio/ogg">
+            <source src="music/Olive-Musique-changetheworld.mp3" type="audio/mpeg">
+            </audio>
+                <p>Click the buttons to get or set the volume of the audio player.</p>
+                
+<!-- https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_volume    ASSISTANCE FROM HERE IN ORDER FOR THE MUSIC -->
+<button onclick="setPartialVolume()" type="button">Set volume to 20%</button>
+<button onclick="setFullVolume()" type="button">Set volume to 100%</button>
+
+<script>
+var x = document.getElementById("myAudio");
+
+function setPartialVolume() { 
+    x.volume = 0.2;
+}
+   
+function setFullVolume() { 
+    x.volume = 1.0;
+} 
+</script> 
+           
+<div class="2017image1">
+  <div class="my2017image1">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/2017images/Berlin, Germany1.jpg" alt="Berlin, Germany1" style="width:100%">
+    <div class="text">Berlin 1</div>
+  </div>
+
+  <div class="my2017image2">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/2017images/Berlin, Germany2.png" alt="Berlin, Germany2"  style="width:100%">
+    <div class="text">Berlin 2</div>
+  </div>
+
+  <div class="my2017image3">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/2017images/Berlin, Germany3.jpg" alt="Berlin, Germany3"  style="width:100%">
+    <div class="text">Berlin 3</div>
+  </div>
+      
+  <div class="my2017image4">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/2017images/Berlin, Germany4.jpg" alt="Berlin, Germany4"  style="width:100%">
+    <div class="text">Berlin 4</div>
+  </div>
+    
+  <div class="my2017image5">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/2017images/Berlin, Germany5.png" alt="Berlin, Germany5"  style="width:100%">
+    <div class="text">Berlin 5</div>
+  </div>
+    
+  <div class="my2017image6">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/2017images/Berlin, Germany6.png" alt="Berlin, Germany6"  style="width:100%">
+    <div class="text">Berlin 6</div>
+  </div>
+
+</div>
+            </main>
+
+            <footer>
+                <p><span class="red">&COPY; Copyright 2017 Anthony Bell - To use any images shown, please contact me at anthony.bell.irl@gmail.com</span>
+            </footer>
+        </div>
+    </body>
+</html>
